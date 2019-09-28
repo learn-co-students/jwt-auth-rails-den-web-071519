@@ -21,3 +21,5 @@ class Api::V1::UsersController < ApplicationController
     params.require(:user).permit(:username, :password, :bio, :avatar)
   end
 end
+
+# good stuff here
